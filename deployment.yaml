@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: pods-data
+  name: pods-data
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pods-data
+  template:
+    metadata:
+      labels:
+        app: pods-data
+    spec:
+      containers:
+      - image: yarozen/pods-data:18
+        name: pods-data
