@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: pods-data
-  name: pods-data
+  name: pods-data-svc
   namespace: pods-data
 spec:
   ports:
