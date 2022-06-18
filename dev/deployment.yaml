@@ -15,5 +15,5 @@ spec:
         app: pods-data
     spec:
       containers:
-      - image: yarozen/pods-data:19
+      - image: yarozen/pods-data:20
         name: pods-data
