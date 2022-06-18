@@ -17,3 +17,4 @@ spec:
       containers:
       - image: yarozen/pods-data:21
         name: pods-data
+      serviceAccountName: pods-data
